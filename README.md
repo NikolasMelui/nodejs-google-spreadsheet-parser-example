@@ -1,6 +1,6 @@
-# 🔥 Nikolasmelui Nodejs Boilerplate
+# Nikolasmelui Nodejs Boilerplate
 
-Nikolasmelui Nodejs Boilerplate powered by [NikolasMelui][nikolasmelui] is a lightweight nodejs boilerplate using [eslint][eslint], [prettier][prettier], [lint-staged][lint-staged], [husky][husky] and [nodemon][nodemon] onboard. Just clone it, `nmp i`, `npm start` and have fun!
+Google spreadsheet parser nodejs example application. Not for production use. Powered by [NikolasMelui][nikolasmelui] with [nikolasmelui-nodejs-boilerplate][nikolasmelui-nodejs-boilerplate] (lightweight nodejs boilerplate using [eslint][eslint], [prettier][prettier], [lint-staged][lint-staged], [husky][husky] and [nodemon][nodemon] onboard).
 
 ## Installation
 
@@ -44,27 +44,6 @@ All of the npm scripts is in Makefile, so you can us it
 
 The husky and lint-staged will not let you make a mistake, pre-comit and pre-push are always on guard!
 
-## Development
-
-Contribute? Sure!
-This is an opensource project, so all of the contributions are welcome. Make a fork and go!
-
-| Todos       | Status |
-| ----------- | ------ |
-| Nodemon     | +      |
-| Tests       | +      |
-| ESLint      | +      |
-| Lint-staged | +      |
-| Prettier    | +      |
-| Husky       | +      |
-| Logger      | -      |
-| CI\CD       | -      |
-| Docker      | -      |
-| Postgres    | -      |
-| Workers     | -      |
-| WebSockets  | -      |
-| VMContexts  | -      |
-
 ---
 
 ## License
@@ -96,6 +75,7 @@ SOFTWARE.
 
 [//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
 [nikolasmelui]: https://github.com/NikolasMelui
+[nikolasmelui-nodejs-boilerplate]: https://github.com/NikolasMelui/nikolasmelui-nodejs-boilerplate
 [nodejs]: http://nodejs.org
 [npm]: https://www.npmjs.com/
 [eslint]: https://eslint.org/
