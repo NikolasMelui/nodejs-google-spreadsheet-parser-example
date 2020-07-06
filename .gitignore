@@ -8,3 +8,5 @@ npm-debug.log*
 .node_repl_history
 .DS_Store
 /src/config.js
+/src/secrets/**
+!/src/secrets/.gitkeep
