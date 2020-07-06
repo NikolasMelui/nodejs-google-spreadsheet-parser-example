@@ -4,18 +4,8 @@
 const { equal } = require('.');
 
 // Mock data
-const serverData = require('./mocks/serverData');
+const data = require('./mocks/data');
 
-const { getApplicationHost, getApplicationPort } = require('../helpers');
+const { sayHello } = require('../helpers');
 
-equal(
-  'Should output the application host',
-  getApplicationHost(serverData),
-  '127.0.0.1',
-);
-
-equal(
-  'Should output the application port',
-  getApplicationPort(serverData),
-  '3000',
-);
+equal('Should return the "Hello" text', sayHello(), data.hello.text);
