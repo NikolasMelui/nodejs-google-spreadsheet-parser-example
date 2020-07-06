@@ -1,8 +1,8 @@
 {
-  "name": "nikolasmelui-nodejs-boilerplate",
-  "version": "4.1.1",
+  "name": "nodejs-google-spreadsheet-parser-example",
+  "version": "0.0.1",
   "private": true,
-  "description": "Lightweight nodejs boilerplate using eslint, prettier, lint-staged, husky and nodemon onboard.",
+  "description": "Google spreadsheet parser nodejs example application.",
   "author": {
     "name": "nikolasmelui",
     "email": "slak@samaradom.ru",
@@ -11,25 +11,18 @@
   "license": "MIT",
   "keywords": [
     "api",
-    "rest",
     "http",
     "https",
     "node.js",
     "nodejs",
     "node",
-    "web",
-    "server",
-    "webserver",
-    "httpserver",
-    "boilerplate",
-    "httpsserver",
-    "nodejsserver"
+    "web"
   ],
-  "main": "./src/server.js",
+  "main": "./src/index.js",
   "scripts": {
-    "start": "node ./src/server.js",
-    "develop": "./node_modules/.bin/nodemon ./src/server.js",
-    "debug": "./node_modules/.bin/nodemon . --inspect ./src/server.js",
+    "start": "node ./src/index.js",
+    "develop": "./node_modules/.bin/nodemon ./src/index.js",
+    "debug": "./node_modules/.bin/nodemon . --inspect ./src/index.js",
     "eslint": "./node_modules/.bin/eslint ./src/ --max-warnings=0",
     "eslint:fix": "./node_modules/.bin/eslint ./src/ --fix",
     "prettier": "./node_modules/.bin/prettier ./src/ --write",
@@ -37,23 +30,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NikolasMelui/nikolasmelui-nodejs-boilerplate.git"
+    "url": "git+https://github.com/NikolasMelui/nodejs-google-spreadsheet-parser-example.git"
   },
   "bugs": {
-    "url": "https://github.com/NikolasMelui/nikolasmelui-nodejs-boilerplate/issues"
+    "url": "https://github.com/NikolasMelui/nodejs-google-spreadsheet-parser-example/issues"
   },
-  "homepage": "https://github.com/nikolasmelui/nikolasmelui-nodejs-boilerplate",
+  "homepage": "https://github.com/nikolasmelui/nodejs-google-spreadsheet-parser-example",
   "engines": {
-    "node": ">=12.6.0"
+    "node": ">=14.5.0"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^7.4.0",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.2",
+    "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.4"
   },
   "eslint.packageManager": "npm",
   "lint-staged": {
