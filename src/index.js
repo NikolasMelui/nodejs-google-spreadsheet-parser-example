@@ -2,7 +2,7 @@
 
 const { GoogleSpreadsheet } = require('google-spreadsheet');
 
-const credentials = require('./secrets/secrets.json');
+const credentials = require('./googleSecretFile.json');
 const { spreadsheetId } = require('./config');
 
 (async () => {

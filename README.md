@@ -14,9 +14,9 @@ All necessary configs is in the `config.js` file. You need to create last one or
 cp config.example.js config.js
 ```
 
-## Google Service Account configurations (secrets.json file)
+## Google Service Account configurations (googleSecretFile.json)
 
-Put your `secrets.json` file with your Google Account credentials to the `./src/secrets` directory
+After create the Google Service Account in the Google Developer Console generate the credentials file and save it to the `./src/` as the `googleSecretFile.json`
 
 ## Installation
 
