@@ -2,11 +2,9 @@
 
 Google spreadsheet parser nodejs example application. Not for production use. Powered by [NikolasMelui][nikolasmelui] with [nikolasmelui-nodejs-boilerplate][nikolasmelui-nodejs-boilerplate] (lightweight nodejs boilerplate using [eslint][eslint], [prettier][prettier], [lint-staged][lint-staged], [husky][husky] and [nodemon][nodemon] onboard).
 
-## Installation
+## Node 14+
 
-```bash
-npm i
-```
+The project using the 14+ NodeJS version!
 
 ## Config
 
@@ -14,6 +12,16 @@ All necessary configs is in the `config.js` file. You need to create last one or
 
 ```bash
 cp config.example.js config.js
+```
+
+## Google Service Account configurations (secrets.json file)
+
+Put your `secrets.json` file with your Google Account credentials to the `./src/secrets` directory
+
+## Installation
+
+```bash
+npm i
 ```
 
 ### Quick Start
